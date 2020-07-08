@@ -1,0 +1,22 @@
+{
+  "name": "InFootball App",
+  "short_name": "InFootball",
+  "description": "App for Premier League Lovers",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "theme_color": "#2196f3",
+  "icons": [
+    {
+      "src": "./assets/images/icons/icon192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/icons/icon512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "gcm_sender_id": "1035187836516"
+}

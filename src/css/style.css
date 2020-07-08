@@ -1,0 +1,227 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container{
+  flex: 1 0 auto;
+}
+
+.text-grey {
+  color: #acacac;
+  font-weight: bold !important;
+}
+
+#closed {
+  margin-top: 5px !important;
+}
+
+h1 {
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.7rem !important;
+  font-weight: bold !important;
+}
+
+.table {
+  border-spacing: 0 !important;
+}
+
+th {
+  border-radius: 0 !important;
+}
+
+hr {
+  height: 5px !important;
+  border: none;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.truncate {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-absolute {
+  position: absolute;
+  bottom: -125px;
+  right: -125px;
+  opacity: 0.5;
+}
+
+.icon-club {
+  height: 25px;
+  width: 25px;
+}
+
+.brand-logo {
+  font-weight: bold;
+}
+
+#nav {
+  padding: 0 20px;
+}
+
+#jumbotron {
+  background-image: url("../assets/images/jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+#jumbotron h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 5vmax !important;
+}
+
+#jumbotron p {
+  margin: 0 19vw;
+}
+
+#jumbotron .button {
+  display: flex;
+  margin-top: 20px;
+}
+
+#jumbotron .btn {
+  margin-right: 10px;
+}
+
+#teams {
+  margin-top: 100vh;
+}
+
+#teams .card,
+#saved-team .card {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+#teams img,
+#saved-team img {
+  max-width: 250px;
+  display: block;
+  margin: auto;
+  max-height: 15rem !important;
+}
+
+#teams a,
+#saved-team a {
+  display: block;
+  width: 130px;
+  margin: auto;
+}
+
+#teams p,
+#saved-team p {
+  font-weight: 400;
+}
+
+#topscorer img {
+  width: 20px;
+  height: 20px;
+}
+
+#schedule h3 {
+  font-size: 1.3rem;
+  width: 25%;
+}
+
+#schedule span {
+  margin: 0 10px;
+}
+
+.matches {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#schedule h2,
+h3 {
+  margin: 0;
+}
+
+#squad h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#squad h2 {
+  text-transform: uppercase;
+  color: black;
+}
+
+#squad .card-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+#squad .image-absolute {
+  opacity: 0.2;
+}
+
+#team-info {
+  margin-top: 70px;
+}
+
+#team-info img {
+  height: 250px;
+}
+
+#standing .container,
+#topscorer .container {
+  overflow-x: auto;
+}
+
+#standing h1 {
+  padding: 0 10px;
+}
+
+footer {
+  margin-top: 70px;
+  line-height: 40px;
+  padding: 20px;
+}
+
+footer p {
+  line-height: 30px;
+}
+
+footer li a {
+  color: white !important;
+}
+
+footer i {
+  margin-right: 4px;
+  font-size: 15px;
+}
